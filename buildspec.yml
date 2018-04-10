@@ -6,7 +6,7 @@ phases:
             - cd AWSLambda2            
             - dotnet restore
             - dotnet lambda package
-            - cd..
+            - cd ..
             - dir
             - aws cloudformation package --template deployment-template.yml --s3-bucket $S3_BUCKET --output-template deployment-template.yml
 artifacts:
