@@ -5,8 +5,8 @@ Resources:
   TimeFunction:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: AWSLambda2::AWSLambda2.Functions::Get
-      Runtime: dotnetcore2
+      Handler: AWSLambda2::AWSLambda2.Function::FunctionHandler
+      Runtime: dotnetcore2.0
       CodeUri: ./AWSLambda2/bin/Release/netcoreapp2.0/AWSLambda2.zip
       Events:
         MyTestAPI:
