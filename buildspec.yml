@@ -4,7 +4,7 @@ phases:
         commands:            
             - dotnet new -i Amazon.Lambda.Templates::*
             - cd AWSLambda2
-            - (Get-Item -Path ".\" -Verbose).FullName
+            - dir
             - dotnet restore
             - dotnet lambda package
             
