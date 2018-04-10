@@ -4,9 +4,11 @@ phases:
         commands:            
             - dotnet new -i Amazon.Lambda.Templates::*
             - cd AWSLambda2
+            - (Get-Item -Path ".\" -Verbose).FullName
             - dotnet restore
             - dotnet lambda package
+            
 artifacts:
   files:
-    - ./AWSLambda2/bin/release/netcoreapp2.0/AWSLambda2.zip
+    - /bin/release/netcoreapp2.0/AWSLambda2.zip
     - deployment-template.yml
