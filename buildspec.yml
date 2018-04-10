@@ -1,8 +1,8 @@
 version: 0.2
 phases:
     build:
-        commands:
-            # - dotnet new -i Amazon.Lambda.Templates::*
+        commands:            
+            - dotnet new -i Amazon.Lambda.Templates::*
             - cd AWSLambda2
             - dotnet restore
             - dotnet lambda package
