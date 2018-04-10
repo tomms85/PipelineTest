@@ -1,11 +1,11 @@
 version: 0.2
 phases:
-build:
-commands:
-- dotnet new -i Amazon.Lambda.Templates::*
-- cd AWSLambda2
-- dotnet restore
-- dotnet lambda package
+    build:
+        commands:
+            - dotnet new -i Amazon.Lambda.Templates::*
+            - cd AWSLambda2
+            - dotnet restore
+            - dotnet lambda package
 artifacts:
   files:
     - AWSLambda2/bin/release/netcoreapp2.0/AWSLambda2.zip
