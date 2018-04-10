@@ -8,5 +8,5 @@ phases:
             - dotnet lambda package
 artifacts:
   files:
-    - AWSLambda2/bin/release/netcoreapp2.0/AWSLambda2.zip
+    - ./AWSLambda2/bin/release/netcoreapp2.0/AWSLambda2.zip
     - deployment-template.yml
