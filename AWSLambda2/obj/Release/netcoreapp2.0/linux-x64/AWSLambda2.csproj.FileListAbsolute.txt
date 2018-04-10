@@ -1,0 +1,10 @@
+C:\Users\tom.martin-smith\Documents\Visual Studio 2017\Projects\AWSLambda2\AWSLambda2\bin\Release\netcoreapp2.0\linux-x64\AWSLambda2.deps.json
+C:\Users\tom.martin-smith\Documents\Visual Studio 2017\Projects\AWSLambda2\AWSLambda2\bin\Release\netcoreapp2.0\linux-x64\AWSLambda2.runtimeconfig.json
+C:\Users\tom.martin-smith\Documents\Visual Studio 2017\Projects\AWSLambda2\AWSLambda2\bin\Release\netcoreapp2.0\linux-x64\AWSLambda2.runtimeconfig.dev.json
+C:\Users\tom.martin-smith\Documents\Visual Studio 2017\Projects\AWSLambda2\AWSLambda2\bin\Release\netcoreapp2.0\linux-x64\AWSLambda2.dll
+C:\Users\tom.martin-smith\Documents\Visual Studio 2017\Projects\AWSLambda2\AWSLambda2\bin\Release\netcoreapp2.0\linux-x64\AWSLambda2.pdb
+C:\Users\tom.martin-smith\Documents\Visual Studio 2017\Projects\AWSLambda2\AWSLambda2\obj\Release\netcoreapp2.0\linux-x64\AWSLambda2.csproj.CoreCompileInputs.cache
+C:\Users\tom.martin-smith\Documents\Visual Studio 2017\Projects\AWSLambda2\AWSLambda2\obj\Release\netcoreapp2.0\linux-x64\AWSLambda2.AssemblyInfoInputs.cache
+C:\Users\tom.martin-smith\Documents\Visual Studio 2017\Projects\AWSLambda2\AWSLambda2\obj\Release\netcoreapp2.0\linux-x64\AWSLambda2.AssemblyInfo.cs
+C:\Users\tom.martin-smith\Documents\Visual Studio 2017\Projects\AWSLambda2\AWSLambda2\obj\Release\netcoreapp2.0\linux-x64\AWSLambda2.dll
+C:\Users\tom.martin-smith\Documents\Visual Studio 2017\Projects\AWSLambda2\AWSLambda2\obj\Release\netcoreapp2.0\linux-x64\AWSLambda2.pdb
