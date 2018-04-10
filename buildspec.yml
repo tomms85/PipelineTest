@@ -3,12 +3,10 @@ phases:
     build:
         commands:            
             - dotnet new -i Amazon.Lambda.Templates::*
-            - cd AWSLambda2
-            - dir
+            - cd AWSLambda2            
             - dotnet restore
             - dotnet lambda package
-            
+            - aws cloudformation package --template deployment-template.yml --s3-bucket $S3_BUCKET --output-template deployment-template.yml
 artifacts:
-  files:
-    - bin/Release/netcoreapp2.0/*
+  files:    
     - deployment-template.yml

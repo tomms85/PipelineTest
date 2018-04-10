@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: AWSLambda2::AWSLambda2.Functions::Get
       Runtime: dotnetcore2
-      CodeUri: ./
+      CodeUri: ./AWSLambda2/bin/Release/netcoreapp2.0/AWSLambda2.zip
       Events:
         MyTestAPI:
           Type: Api
