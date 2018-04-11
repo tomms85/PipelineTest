@@ -1,14 +1,11 @@
 version: 0.2
 phases:
     build:
-        commands:            
-            - dotnet new -i Amazon.Lambda.Templates::*
+        commands:                        
             - cd AWSLambda2            
             - dotnet restore
-            - dotnet lambda package
-            - cd ..
-            - dir
-            - aws cloudformation package --template deployment-template.yml --s3-bucket $S3_BUCKET --output-template deployment-template.yml
+            - dotnet lambda package -c Release -o ../Package.zip            
+            - aws cloudformation package --template ../deployment-template.yml --s3-bucket $S3_BUCKET --output-template ../deployment-template.yml
 artifacts:
   files:    
     - deployment-template.yml
